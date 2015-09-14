@@ -1,0 +1,20 @@
+<template>
+	<div class="well carousel">
+		<a class="carousel-nav previous" 
+			click.trigger="previous()">
+			<i class="fa fa-arrow-circle-o-left"></i>
+		</a>
+		<a class="carousel-nav next"
+			click.trigger="next()">
+			<i class="fa fa-arrow-circle-o-right"></i>
+		</a>
+		<ol>
+			<li repeat.for="item of items"
+				class.bind="item.carouselCurrent ? 'current' : ''">
+				<compose 
+					view="${$parent.template}" 
+					view-model.bind="item"/>
+			</li>
+		</ol>
+	</div>
+</template>

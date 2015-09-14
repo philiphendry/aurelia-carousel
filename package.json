@@ -1,0 +1,42 @@
+{
+  "name": "aurelia-carousel",
+  "version": "1.0.0",
+  "description": "A Carousel component for Aurelia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiphendry/aurelia-carousel.git"
+  },
+  "keywords": [
+    "aurelia",
+    "carousel",
+    "component"
+  ],
+  "author": "Philip Hendry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philiphendry/aurelia-carousel/issues"
+  },
+  "homepage": "https://github.com/philiphendry/aurelia-carousel#readme",
+  "devDependencies": {
+    "jspm": "^0.16.2"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.17.0",
+      "aurelia-framework": "github:aurelia/framework@^0.16.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@^0.1.16",
+      "font-awesome": "npm:font-awesome@^4.4.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  }
+}
