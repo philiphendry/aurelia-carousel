@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/philiphendry/aurelia-carousel#readme",
   "devDependencies": {
-    "jspm": "^0.16.2"
+    "jspm": "^0.16.15"
   },
   "jspm": {
     "dependencies": {
